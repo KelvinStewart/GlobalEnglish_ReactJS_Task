@@ -1,0 +1,197 @@
+*,
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0px;
+    background-color: #F5F5F5;
+}
+
+.content {
+    background-color: #ffffff;
+    border: 1px solid #cccc;
+    padding: 20px;
+    margin: 80px auto 40px;
+    width: 80%;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+.add_btn {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 32px;
+}
+
+.headerText {
+    text-align: left;
+}
+
+.alert-success,
+.alert-warning,
+.alert-danger {
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.modal .alert-success,
+.modal .alert-warning,
+.modal .alert-danger {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.alert-success {
+    background-color: #10A742 !important;
+}
+
+.alert-warning {
+    background-color: #F7A838;
+}
+
+.alert-danger {
+    background-color: #D42426;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+li {
+    padding: 0px 0px 10px 0px;
+}
+
+.btnContainer {
+    text-align: center;
+}
+
+.res-block {
+    position: fixed;
+    top: 5%;
+    left: 25%;
+}
+
+.other_info {
+    border: 1px solid #ccc;
+    /* margin-top: 20px; */
+    border-radius: 5px;
+    min-height: 100px;
+}
+
+.row.content div {
+    padding: 0 20px 0 0;
+}
+
+.row.content div:nth-child(3) {
+    padding-right: 0;
+}
+
+.row.content div:first-child {
+    padding-left: 0;
+}
+
+.row.content div:last-child {
+    padding: 0 10px 10px;
+}
+
+.row.content div:nth-child(-n+3) {
+    margin-bottom: 10px;
+}
+
+.other_info hr {
+    margin-top: 0px !important;
+}
+
+.attention,
+.notWentWell,
+.wentWell {
+    padding: 0 10px;
+    border: 1px solid #cccc;
+    min-height: 250px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.attention a,
+.notWentWell a,
+.wentWell a,
+.other_info a {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headingTemplate {
+    color: #333;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 0px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: -15px;
+    border-bottom: 1px solid #efefef;
+}
+
+.attention span,
+.notWentWell span,
+.wentWell span,
+.other_info span {
+    font-size: 14px;
+}
+
+.res-block.col-lg-9.col-md-9.col-sm-3 div {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 317px;
+}
+
+.headerDesign {
+    background-color: #1A365D;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.headerDesign h5#Date {
+    text-align: right;
+}
+
+.modal-body form div {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.modal-footer {
+    margin-top: 10px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+}
